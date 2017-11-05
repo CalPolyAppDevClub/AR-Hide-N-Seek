@@ -1,0 +1,10 @@
+//
+//  Debug.xcconfig
+//  AR Hide and Seek
+//
+//  Created by Erick Harris on 11/5/17.
+//  Copyright © 2017 Erick Harris. All rights reserved.
+//
+
+BUNDLE_ID = io.example.app
+

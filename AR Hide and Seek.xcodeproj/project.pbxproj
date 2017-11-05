@@ -24,6 +24,7 @@
 		79A563C31FAFAA54007672E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A563C61FAFAA54007672E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A563C81FAFAA54007672E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A563CE1FAFAB5D007672E7 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		79A563AE1FAFAA54007672E7 = {
 			isa = PBXGroup;
 			children = (
+				79A563CE1FAFAB5D007672E7 /* Debug.xcconfig */,
 				79A563B91FAFAA54007672E7 /* AR Hide and Seek */,
 				79A563B81FAFAA54007672E7 /* Products */,
 			);
@@ -169,6 +171,7 @@
 /* Begin XCBuildConfiguration section */
 		79A563C91FAFAA54007672E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A563CE1FAFAB5D007672E7 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -226,6 +229,7 @@
 		};
 		79A563CA1FAFAA54007672E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A563CE1FAFAB5D007672E7 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
